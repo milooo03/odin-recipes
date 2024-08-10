@@ -32,6 +32,41 @@ h1 {
     color: rgb(255, 201, 101);
 }
 
+.recipe-container {
+    width: 1050px;
+    height: auto;
+    margin: 60px auto;
+    padding: 10px;
+    border: solid black;
+}
+
+.recipe-container .grid {
+    width: 900px;
+    height: auto;
+    margin: 0px auto;
+    border: solid yellow;
+}
+
+.recipe-container .grid div {
+    box-sizing: border-box;
+    width: 275px;
+    height: 220px;
+    border: solid orange;
+    display: inline-block;
+}
+
+/* This positioning code is a mess lmaooo */
+/* this is done to separate the items with almost the same distance and centered inside the grid */
+/* I'm aware there are better solutions, but idk how to implement them yet */
+
+.item1 {
+    margin-right: 33px;
+}
+
+.item3 {
+    margin-left: 34px;
+}
+
 .lasagna, .chicken_noodle, .ranch_chicken_tacos {
     font-size: 25px;
     font-weight: 500;
